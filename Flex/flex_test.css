@@ -1,0 +1,22 @@
+body{
+    background-color: aquamarine;
+}
+
+.flexcontainer{
+   background-color: blue;
+   width: 400px;
+   height: 300px;
+   display: flex;
+   flex-direction: column;
+   /*justify-content: center;*/
+   align-items: center;
+   flex-wrap: wrap;
+}
+
+.flexcontainer div{
+    width: 50px;
+    height: 50px;
+    background-color: brown;
+    border: 1px solid;
+    margin: 2px;
+}
